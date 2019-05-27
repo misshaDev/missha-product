@@ -78,7 +78,7 @@ figure figcaption{
 }
 
 .control{
-    padding: 4px;
+    padding: 1rem;
 }
 
 .control h2{
@@ -89,11 +89,24 @@ figure figcaption{
 }
 
  .control img{
-   background: #d8deff;
-
+   object-fit: cover;
+   display: block;
+   margin: auto;
  }
 
- .control dl{
+ .grid-2{
+   padding: 1.5rem;
    background: #d8deff;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 20px;
+ }
+
+ dt{
+   background: #414141;
+   color: #ffffff;
+ }
+
+ dd{
    
  }
